@@ -131,3 +131,16 @@ tooltip label {
   padding: 5px;
   background-color: #131822;
 }
+
+#tray {
+  padding: 6px 12px;
+}
+
+#tray > .tray-item {
+  min-width: 0;
+}
+
+#tray image {
+  -gtk-icon-transform: scale(1.4);
+}
+
